@@ -9,6 +9,15 @@ function reverString(str){
     
 }
 
+function builtInReverse(str){
+    return str.split('').reverse().join('');
+
+}
+
+console.log("Method 1: ");
 console.log(reverString(str));
+console.log("Method 2: ");
+console.log(builtInReverse(str));
+
 
 
